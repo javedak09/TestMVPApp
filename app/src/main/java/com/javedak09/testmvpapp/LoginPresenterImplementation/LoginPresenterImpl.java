@@ -32,8 +32,8 @@ public class LoginPresenterImpl implements LoginPresenter {
     }
 
     @Override
-    public void validate(String username, String password) {
-        loginView.ValidateForm();
+    public boolean validate(String username, String password) {
+        return loginView.ValidateForm();
     }
 
     @Override

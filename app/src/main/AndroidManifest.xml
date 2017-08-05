@@ -16,7 +16,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AndroidDatabaseManager"></activity>
+        <activity android:name=".AndroidDatabaseManager" />
+        <activity android:name=".MainActivity$SectionA" />
+        <activity android:name=".SectionA"></activity>
     </application>
 
 </manifest>

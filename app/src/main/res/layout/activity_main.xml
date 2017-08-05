@@ -6,76 +6,14 @@
     android:layout_height="wrap_content"
     tools:context="com.javedak09.testmvpapp.MainActivity">
 
-    <LinearLayout
+    <Button
+        android:id="@+id/btnOpenForm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layoutDirection="ltr"
-        android:orientation="vertical">
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:text="User ID" />
-
-        <EditText
-            android:id="@+id/userid"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:hint="user id" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Password"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <EditText
-            android:id="@+id/passwd"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:hint="password"
-            android:inputType="textPassword"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/btnCreateUser"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="CreateUser"
-            android:text="Create User"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/btnCancel"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="Cancel"
-            android:text="Cancel"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-        <Button
-            android:id="@+id/btnDBManager"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:onClick="OpenDBManager"
-            android:text="Database Manager"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintLeft_toLeftOf="parent"
-            app:layout_constraintRight_toRightOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
-
-    </LinearLayout>
+        android:text="Open User Create Form"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 </android.support.constraint.ConstraintLayout>
